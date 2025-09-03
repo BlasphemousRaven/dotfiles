@@ -276,9 +276,8 @@ gaps inner 10
 #german keyboard layout
 exec setxkbmap de
 
-#lock screen during sleep
-exec "xautolock -detectsleep -time 3 -locker \"i3lock -c 000000\""
-
 exec /home/raven/exec/hdmi/hdmi.sh
 exec pactl set-sink-volume @DEFAULT_SINK@ 0%
+
+bindsym $mod+shift+s exec "flameshot gui --delay 100"
 
