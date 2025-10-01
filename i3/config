@@ -239,7 +239,7 @@ client.urgent           $u-bgcolor      $u-bgcolor      $text           $u-bgcol
 
 
 # ws alloc
-exec --no-startup-id i3-msg "workspace $ws2; exec firefox"
+exec --no-startup-id i3-msg "workspace $ws2; exec /home/raven/work/work.sh"
 exec --no-startup-id i3-msg "workspace $ws3; exec kitty tmux"
 exec --no-startup-id i3-msg "workspace $ws4; exec spotify"
 exec --no-startup-id i3-msg "workspace $ws5; exec thunar"   
@@ -268,7 +268,7 @@ exec_always autotiling
 exec picom
 
 #polybar
-exec ~/pbar/launch.sh
+exec /home/raven/exec/launch.sh
 
 #gaps maybe
 gaps inner 10
