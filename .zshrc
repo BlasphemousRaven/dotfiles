@@ -32,18 +32,19 @@ cd
 #I3 
 alias editi3="sudo vim ~/.config/i3/config"
 #HOME personal shortcuts to dir
-alias uni="cd ~/INF-BA/3.\ FS/"
-alias ecg="cd ~/INF-BA/2.\ FS/ECG"
-alias ikt="cd ~/INF-BA/2.\ FS/IKT"
-alias ana="cd ~/INF-BA/2.\ FS/Ana"
-alias prog="cd ~/INF-BA/2.\ FS/Prog"
-alias swt="cd ~/INF-BA/2.\ FS/SWT"
+alias uni="cd ~/INF-BA/3.FS/"
+#2nd semester
+alias ecg="cd ~/INF-BA/2.FS/ECG"
+alias ikt="cd ~/INF-BA/2.FS/IKT"
+alias ana="cd ~/INF-BA/2.FS/Ana"
+alias prog="cd ~/INF-BA/2FS/Prog"
+alias swt="cd ~/INF-BA/2.FS/SWT"
 
-alias tgi="cd ~/INF-BA/3.\ FS/TGI"
-alias stoc="cd ~/INF-BA/3.\ FS/Mathe"
-alias ra="cd ~/INF-BA/3.\ FS/RA"
-alias swp="cd ~/INF-BA/3.\ FS/SWP"
-alias fs="cd ~/INF-BA/3.\ FS/FS"
+alias tgi="cd ~/INF-BA/3.FS/TGI"
+alias mathe="cd ~/INF-BA/3.FS/Mathe"
+alias ra="cd ~/INF-BA/3.FS/RA"
+alias swp="cd ~/INF-BA/3.FS/SWP"
+alias fs="cd ~/INF-BA/3.FS/FS"
 #personal commands
 alias internetz="ping archlinux.org"
 #vim configs
@@ -57,6 +58,8 @@ alias task="/home/raven/exec/task-system/task"
 #update dotfiles
 alias dot="sudo ~/exec/update_dotfiles.sh"
 alias todo="~/exec/todo/todo"
+alias work="sudo /home/raven/exec/work_mode.sh WORK"
+alias hostess=echo
 
 #copy github key to clipboard
 alias gpw="xclip -selection clipboard < ~/github"
