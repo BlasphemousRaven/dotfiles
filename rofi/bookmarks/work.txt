@@ -2,7 +2,9 @@
 [opal] https://bildungsportal.sachsen.de/opal/
 [pomodoro] https://pomofocus.io/
 [selma] https://selma.tu-dresden.de/
-[mail] https://idp.tu-dresden.de/idp/profile/
+[mail] https://msx.tu-dresden.de/
 [wiki] https://www.wikipedia.de/
 [search] www.duckduckgo.com
 [cloud] https://drive.google.com 
+[github] https://github.com/BlasphemousRaven
+[leet] https://leetcode.com/

@@ -58,7 +58,7 @@ alias task="/home/raven/exec/task-system/task"
 #update dotfiles
 alias dot="sudo ~/exec/update_dotfiles.sh"
 alias todo="~/exec/todo/todo"
-alias work="sudo /home/raven/exec/work_mode.sh WORK"
+alias work="~/exec/work_mode.sh WORK"
 alias hostess=echo
 
 #copy github key to clipboard
@@ -68,3 +68,8 @@ alias rustlings="~/.cargo/bin/rustlings"
 
 alias cat="bat"
 alias calc="insect"
+alias slog="~/exec/log.sh"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"

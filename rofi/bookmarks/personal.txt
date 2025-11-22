@@ -1,1 +1,4 @@
 # personal
+[tabs] https://www.songsterr.com
+[mail] https://account.proton.me/mail
+[passwords] https://bitwarden.com/
